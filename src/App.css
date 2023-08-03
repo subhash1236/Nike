@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Lato:ital@1&family=Montserrat:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,100;1,200;1,300;1,400;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,700&display=swap');
+body{
+  font-family: 'Dancing Script', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+:root{
+  --red:#d01c28;
+  --gray:#2e2e2e;
+}
+.container{
+  margin: 0 auto;
+  max-width: 1280px;
+}
+button{
+  all: unset;
+  padding:8px 16px;
+  background: var(--red);
+  color: #fff;
+  height: 30px;
+  font-weight: 500;
+  font-size: 24px;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+*{
+  padding:0;
+  margin:0;
+  box-sizing:boder-box;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  height: 72px;
+}
+nav ul{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+
+}
+.hero{
+  display: flex;
+  margin: 0 auto;
+  max-width: 1280;
+  align-items: center;
+  height:90vh;
+
+}
+.hero-btn button{
+  font-size: 24px;
+  cursor: pointer;
+
+}
+.hero-content{
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.hero h1{
+  font-weight: 800;
+  font-size: 108px;
+  line-height: 102px;
+}
+.hero p{
+  font-weight: 600;
+  color: var(--gray);
+}
+.hero-btn{
+  display: flex;
+  gap: 40px;
+}
+.secoundary-btn{
+  background: transparent;
+  color: var(--gray);
+  border: 1px solid var(--gray);
+}
+.shopping P{
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.brand-icon{
+  display: flex;
+  gap: 16px;
+}
